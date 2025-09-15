@@ -1,0 +1,29 @@
+//step 1:
+1.npm create vite@4.1.0
+2.npm i 
+3.cd expense-tracker
+4.npm i 
+5.npm i bootstrap@5.2.3
+6.import bootstrap into the main.tsx 
+imports in the main.tsx: 
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
+-> the styles from bootstrap comes from under the Forms section not the 
+component we have Form Control and Select
+//we have defined the jsx of form (from forms under form controls)
+//I have made the labels(form-label) and the inputs (form-control)
+and for the select element I made an array and I mapped it in the jsx to
+option tag elements to make it more dynamic (if we want to add any options
+we dont have to hard code it we can just add it in the array and it will automatically add 
+and option element for it in the select tag
+using conditional rendering if the option is Choose an option make it selected at first and then disabled)
+
+step 2: I will use the react hook form to be able to access the values from the input fields and the select
+
+
+//step 3: I will add the validation rules using zod
+validation rules added with zod but handled the Category as min should be at least 1 character 
+and the default value is '' empty string (so when it is '' empty string 0 characters it 
+will give an error)
+
+//the table format came from content under it Tables 
