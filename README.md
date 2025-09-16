@@ -1,6 +1,6 @@
 # 💰 Expense Tracker
 
-A simple React + Vite application to track your expenses and manage your budget.
+A simple React + Zod + typeScript + Vite application to track your expenses and manage your budget.
 
 ## 🚀 Features
 - Add new expenses with details (title, amount, date)
